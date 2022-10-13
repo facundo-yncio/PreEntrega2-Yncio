@@ -7,12 +7,11 @@ img {
 .boton {
     transition-duration: 0.4s;
     background-color: rgb(225, 241, 247);
-    padding: 16px 32px;   
-    margin: 16px 100px;
+    padding: 16px 20px; 
     height: 60px;
-    width: 150px;
     border-color: transparent;
     color: rgb(1, 1, 67);
+    border-radius: 75%;
   }
   
 .boton:hover {
@@ -23,7 +22,7 @@ img {
 .navbar {
     background-color: lightblue;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
